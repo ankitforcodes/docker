@@ -1,0 +1,2 @@
+1. Start nginx: docker container run --publish 80:80 --detach nginx
+2. Get logs: docker container logs <container name>
