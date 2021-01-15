@@ -2,3 +2,8 @@
 2. Top command: docker container top webserver
 3. Snapshot/View of how container was started: docker container inspect  webserver
 4. Live Streaming view of metrics: docker container stats
+5. Go inside container with a shell:
+	* docker container run -it : start new container interactively
+	* docker -it
+	* docker -ai
+	* docker exec -it <container_name> bash : Run on exsiting container, not creating new container
