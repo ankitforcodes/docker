@@ -1,0 +1,4 @@
+1. Start any container: docker container run -d --name webserver nginx
+2. Top command: docker container top webserver
+3. Snapshot/View of how container was started: docker container inspect  webserver
+4. Live Streaming view of metrics: docker container stats
